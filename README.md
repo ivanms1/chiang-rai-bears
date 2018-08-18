@@ -1,3 +1,3 @@
 ## Chiang Rai Bears
 
-#Rubgy Team
+# Rubgy Team
