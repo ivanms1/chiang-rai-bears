@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Righteous', cursive;
+}
+
+.page-one-navbar{
+  background-image: url('./images/bg.jpg');
+  background-size: cover;
+  height: 100%;
+}
+
+ul li a {
+  font-size: 2vw;
+}
+
+.material-icons.md-18 {
+    font-size: 40px;
+}
+
+.sidenav li a {
+  font-size: 25px;
+}
+
+.page-one {
+  display: grid;
+  grid-template-columns: 40vw 60vw;
+  grid-template-rows: 100vh;
+  justify-items: center;
+  align-content: center;
+  overflow: hidden;
+  margin-bottom: 4%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+}
+
+.motto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.motto {
+  font-size: calc(25px + 5vw);
+  text-align: center;
+  text-shadow:0 0 4px rgba(255, 255, 255, 0.72), 0 0 14px rgba(255, 255, 255, 0.45);
+  margin: 0;
+}
+
+.motto-container p {
+  font-size: calc(2.5vw + 12.5px);
+  text-shadow:0 0 4px rgba(255, 255, 255, 0.72), 0 0 14px rgba(255, 255, 255, 0.45);
+}
+
+.page-two {
+  padding-top: 5%;
+}
+
+.page-two {
+  -webkit-transform: skew(0deg, -3deg);
+  transform: skew(0deg, -3deg);
+  margin-top: -5vw;
+  background-image: url('./images/bg3.jpg');
+  background-size: cover;
+  padding-bottom: 5%;
+  color: white;
+}
+
+.team{
+  -webkit-transform: skew(0deg, 3deg);
+  transform: skew(0deg, 3deg);
+
+}
+
+.team h1 {
+  text-align: center;
+  padding: 0;
+  margin:0;
+  font-size: calc(40px + 5vw);
+  text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+
+}
+
+.team-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.team-image img {
+  margin-top: 5%;
+  width: calc(45vw + 145px);
+}
+
+.team-image p {
+  margin-top: 2%;
+  width: 80vw;
+  text-align: justify;
+  font-size: calc(1vw + 12px);
+}
+
+.page-three {
+  background: white;
+  -webkit-transform: skew(0deg, -3deg);
+  transform: skew(0deg, -3deg);
+  background-image: url('./images/bg.jpg');
+  background-size: cover;
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+.news {
+  -webkit-transform: skew(0deg, 3deg);
+  transform: skew(0deg, 3deg);
+  padding-bottom: 10%;
+}
+
+.news h1 {
+  text-align: center;
+  padding: 0;
+  margin:0;
+  font-size: calc(40px + 5vw);
+  text-shadow:0 0 4px rgba(255, 255, 255, 0.72), 0 0 14px rgba(255, 255, 255, 0.45);
+
+}
+
+.news-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-image img {
+  margin-top: 5%;
+  width: calc(45vw + 145px);
+}
+
+.news-image p {
+  margin-top: 2%;
+  width: 80vw;
+  text-align: justify;
+  font-size: calc(1vw + 12px);
+}
+
+.page-five {
+  -webkit-transform: skew(0deg, -3deg);
+  transform: skew(0deg, -3deg);
+  background-image: url('./images/bg.jpg');
+  background-size: cover;
+  padding-top: 3%;
+}
+
+.contact {
+  -webkit-transform: skew(0deg, 3deg);
+  transform: skew(0deg, 3deg);
+  padding-bottom: 4%;
+}
+
+.contact h1 {
+  text-align: center;
+  padding: 0;
+  margin:0;
+  font-size: calc(40px + 5vw);
+  text-shadow:0 0 4px rgba(255, 255, 255, 0.72), 0 0 14px rgba(255, 255, 255, 0.45);
+}
+
+.contact-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image img {
+  margin-top: 5%;
+  width: calc(20vw + 145px);
+}
+
+.contact-image p {
+  margin-top: 2%;
+  text-align: center;
+  font-size: calc(2vw + 15px);
+}
+
+.footer {
+  margin-top: -6vw;
+  padding-bottom: 1.5vw;
+  background-image: url('./images/bg3.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.footer:after {
+  -webkit-transform: skew(0deg, -3deg);
+  transform: skew(0deg, -3deg);
+  background-image: url('./images/bg3.jpg');
+  background-size: cover;
+  color: white;
+  z-index: -1;
+}
+
+
+.footer-content {
+  padding-top: 10%;
+}
+
+.footer-content > *:first-child {
+  text-align: center;
+  font-size: calc(1vw + 12px);
+}
+
+.footer-content > *:last-child  {
+  text-align: center;
+  font-size: calc(.6vw +8px);
+}
+
+@media only screen and (max-width: 800px) {
+  .page-one {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  }
+
+  .logo {
+  width: 95%;
+  }
+}
